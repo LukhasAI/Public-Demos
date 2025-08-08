@@ -247,8 +247,16 @@ Press Enter to continue...
             return
         
         try:
-            # Run the demo
-            subprocess.run([sys.executable, demo_path])
+            # Check which demo and handle appropriately
+            if 'tone_system' in demo['file'] or 'consciousness' in demo['file']:
+                # These demos work without dependencies
+                subprocess.run([sys.executable, demo_path])
+            else:
+                # These might need fallback handling
+                print("⚠️  This demo may require additional dependencies.")
+                print("   Showing conceptual overview instead:\n")
+                subprocess.run([sys.executable, 'run_demo_safely.py', 
+                              demo['file'].replace('.py', '').replace('_demo', '')])
         except Exception as e:
             print(f"⚠️  Error running demo: {e}")
             print("   Some demos require additional setup or dependencies")
