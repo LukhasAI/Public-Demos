@@ -32,8 +32,8 @@ LUKHΛS represents a breakthrough in artificial intelligence - not through scale
 
 ```bash
 # No installation required - just Python 3.8+
-git clone https://github.com/[YourUsername]/LUKHAS-Demos-Public.git
-cd LUKHAS-Demos-Public
+git clone https://github.com/LukhasAI/Public-Demos.git
+cd Public-Demos
 python showcase_interactive.py
 ```
 
