@@ -1,0 +1,14 @@
+# LUKHΛS Demo Showcase - Minimal Requirements
+# These are lightweight dependencies for running demos only
+# No proprietary LUKHΛS code is included or required
+
+# Core Python libraries (most are built-in)
+# Standard library only - no external dependencies required for basic demos
+
+# Optional enhancements (install if you want better visualizations)
+# colorama>=0.4.6  # For colored terminal output
+# rich>=13.0.0     # For rich terminal UI
+# click>=8.0.0     # For better CLI interactions
+
+# Note: All demos are designed to work with Python 3.8+ standard library only
+# The optional packages above enhance the experience but are not required
