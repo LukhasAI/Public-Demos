@@ -10,6 +10,14 @@
 
 ---
 
+## 🤝 Human-AI Synergy Acknowledgment
+
+*This project was built through dialogue with OpenAI's ChatGPT-4o. With no coding background, I brought vision and metaphor, while ChatGPT-4o served as mentor and teacher. Every line of code emerged from our conversations — proving that revolutionary technology can be created when human imagination meets AI capability.*
+
+**Note**: Created independently using OpenAI's publicly available service. OpenAI has not endorsed or partnered with LUKHΛS.
+
+---
+
 ## 🌟 What is LUKHΛS?
 
 **Logical Unified Knowledge Hyper-Adaptable System**
