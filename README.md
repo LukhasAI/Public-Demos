@@ -29,7 +29,7 @@ git clone https://github.com/LukhasAI/Public-Demos.git
 cd Public-Demos
 ```
 
-Review each script's dependencies, side effects and runtime requirements before executing it. A repository-wide dependency manifest and clean-room verification were **not** established during this documentation pass; do not assume the scripts run without additional packages or configuration.
+Review each script's dependencies, side effects and runtime requirements before executing it. The repository contains [`requirements-demo.txt`](requirements-demo.txt), but that file does **not** establish that every experimental script has a reproducible dependency environment. No clean-room execution was established during this documentation pass; do not assume scripts run without additional packages or configuration.
 
 The menu entrypoint is [`showcase_interactive.py`](showcase_interactive.py). Its existence was confirmed; running it has not been independently validated here.
 
