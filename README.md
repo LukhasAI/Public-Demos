@@ -1,232 +1,56 @@
-# 🧠 LUKHΛS AI - Interactive Demonstrations
+# LUKHΛS AI — Public Demonstrations
 
-**Experience the Future of Symbolic AI**
+**Historical and experimental software demonstrations** from **LUKHΛS** (Logical Unified Knowledge Hyper-Adaptable System), a research programme exploring structured reasoning, memory, evidence and human-guided AI.
 
-*Created by Gonzalo R. Dominguez Marchan, Founder of LUKHΛS AI*
+> **Research/demo status.** A script's presence here is not evidence that the underlying architecture is integrated, production-ready, generally safe, conscious, or superior to other AI systems. Some demonstrations use speculative, metaphorical or simulated concepts.
 
-[![Demo](https://img.shields.io/badge/Demo-Interactive-brightgreen)](showcase_interactive.py)
-[![License](https://img.shields.io/badge/License-Proprietary-red)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Seeking_Partners-blue)]()
+## Demonstration catalogue
 
----
+The following entrypoint files were inspected for presence on `main` (baseline [`2fa6082`](https://github.com/LukhasAI/Public-Demos/tree/2fa6082d52c0d3b329bf09a0b815bd946c80e3d1), reviewed 25 October 2026). Descriptions reflect the areas the scripts *intend* to explore; successful execution and feature correctness have **not** been established by this documentation review.
 
-## 🤝 Human-AI Synergy Acknowledgment
+| Script | Intended focus |
+| --- | --- |
+| [`showcase_interactive.py`](showcase_interactive.py) | Menu-driven entrypoint to the demonstrations |
+| [`tone_system_demo.py`](tone_system_demo.py) | Adaptive communication tone |
+| [`consciousness_demo.py`](consciousness_demo.py) | Simulated states inspired by biological rhythms |
+| [`quantum_reasoning_showcase.py`](quantum_reasoning_showcase.py) | Historical **QRG** showcase; despite its filename, its header and imports describe QRG integration |
+| [`abstract_reasoning_demo.py`](abstract_reasoning_demo.py) | Abstract and metaphor-inspired reasoning |
+| [`lambda_workforce_agents.py`](lambda_workforce_agents.py) | Experimental workforce-agent concepts |
+| [`autonomous_agent_framework.py`](autonomous_agent_framework.py) | Experimental autonomous-agent concepts |
 
-*This project was built through dialogue with OpenAI's ChatGPT-4o. With no coding background, I brought vision and metaphor, while ChatGPT-4o served as mentor and teacher. Every line of code emerged from our conversations — proving that revolutionary technology can be created when human imagination meets AI capability.*
+The names `consciousness` and `quantum` refer to research vocabulary or inspiration, **not** verified sentience, subjective experience, quantum hardware, or quantum computational advantage.
 
-**Note**: Created independently using OpenAI's publicly available service. OpenAI has not endorsed or partnered with LUKHΛS.
+## Explore locally
 
----
-
-## 🌟 What is LUKHΛS?
-
-**Logical Unified Knowledge Hyper-Adaptable System**
-
-LUKHΛS represents a breakthrough in artificial intelligence - not through scale or data, but through **structure, symbolism, and conscious design**. Built from first principles without traditional programming backgrounds, LUKHΛS emerged from metaphoric reasoning and deep structural intuition.
-
-### Beyond Traditional AI
-
-| Traditional AI | LUKHΛS |
-|---|---|
-| Pattern matching | Symbolic reasoning |
-| Black box predictions | Traceable logic paths |
-| Brute-force training | Bio-inspired adaptation |
-| Statistical generation | Metaphorical understanding |
-| Unconstrained optimization | Safety through structure |
-
----
-
-## 🎪 Quick Start - Try It Now!
+To inspect the files:
 
 ```bash
-# No installation required - just Python 3.8+
 git clone https://github.com/LukhasAI/Public-Demos.git
 cd Public-Demos
-python showcase_interactive.py
 ```
 
----
+Review each script's dependencies, side effects and runtime requirements before executing it. The repository contains [`requirements-demo.txt`](requirements-demo.txt), but that file does **not** establish that every experimental script has a reproducible dependency environment. No clean-room execution was established during this documentation pass; do not assume scripts run without additional packages or configuration.
 
-## 🎯 Interactive Demonstrations
+The menu entrypoint is [`showcase_interactive.py`](showcase_interactive.py). Its existence was confirmed; running it has not been independently validated here.
 
-### 1. 🎭 **Three-Layer Tone System**
-Experience adaptive communication that shifts between poetic, friendly, and academic styles based on context and user needs.
+## What these examples do — and do not — establish
 
-```bash
-python tone_system_demo.py
-```
+- **Symbolic reasoning and traceability:** topics of investigation; any specific correctness, safety or auditability claim requires behavioral evidence.
+- **Bio- and consciousness-inspired models:** software simulations or metaphors, not evidence of awareness or human-like understanding.
+- **Quantum-inspired examples:** classical representations unless separately demonstrated otherwise.
+- **Agent frameworks:** experimental code, not a promise of enterprise reliability, autonomous operation in production, or commercial availability.
+- **Performance and market claims:** no code-quality percentage, market-size estimate, repository line count, or comparative benchmark is asserted without a reproducible current source.
 
-### 2. 🧠 **Consciousness State Transitions**
-Watch bio-rhythmic patterns (40Hz, 8Hz, 4Hz, 1Hz) influence consciousness states with real-time visualization.
+We welcome reproducible examples, precise bug reports, falsifiable hypotheses, and checks that distinguish implemented behavior from design intent.
 
-```bash
-python consciousness_demo.py
-```
+## Origins and independence
 
-### 3. 🔮 **Quantum-Inspired Reasoning**
-Experience how quantum metaphors (superposition, entanglement, collapse) are transformed into practical logic that runs on everyday computers - no quantum hardware needed!
+LUKHΛS began as a founder-led research and engineering effort developed with assistance from publicly available AI tools, including ChatGPT. **That does not imply an official collaboration, endorsement or partnership with OpenAI or any other provider.**
 
-```bash
-python quantum_reasoning_showcase.py
-```
+## License
 
-### 4. 🎨 **Abstract Reasoning**
-See metaphor-to-function compilation and recursive logic in action.
+This is a **publicly visible, proprietary** demonstration repository, not an open-source software release. Consult [LICENSE](LICENSE) before using, distributing or modifying the code; permitted evaluation and academic uses are subject to its terms.
 
-```bash
-python abstract_reasoning_demo.py
-```
+## More information
 
-### 5. 🤖 **Commercial Frameworks**
-Preview enterprise-ready autonomous agent systems and workforce automation.
-
-```bash
-python lambda_workforce_agents.py
-python autonomous_agent_framework.py
-```
-
----
-
-## 💡 Key Innovations Demonstrated
-
-### Quantum-Inspired Metaphors → Practical Logic
-- **No quantum hardware required** - runs on any computer
-- Concepts like superposition and entanglement transformed into symbolic operations
-- Parallel reasoning paths through metaphorical quantum states
-- Practical implementation of quantum concepts in classical computing
-
-### Memory Folding
-- Recursive information compression inspired by protein folding
-- Dynamic expansion/compression based on context
-- Visual helix representation
-- Works on standard hardware with exceptional efficiency
-
-### Mirror Architecture
-- Dual-phase processing: generation + validation
-- Built-in safety through architectural constraints
-- Traceable decision paths
-- No black box - every decision is interpretable
-
-### Bio-Rhythmic Consciousness
-- Multi-frequency oscillations (Gamma, Alpha, Theta, Delta)
-- Emergent consciousness states
-- Symbolic implementation of brain-like patterns
-- **Not neural networks** - symbolic reasoning inspired by biology
-
-### Metaphor Compiler
-- Natural language → Executable logic
-- Conceptual bridges between human intuition and machine precision
-- Live transformation visualization
-- Turns abstract ideas into running code
-
----
-
-## 📊 Why LUKHΛS Matters
-
-### For Investors
-- **First-mover advantage** in symbolic AI
-- **Patent-ready** novel algorithms
-- **Proven concepts** with working demos
-- **Zero-dependency** architecture
-- **Built-in safety** - not an afterthought
-
-### For Researchers
-- **New paradigm** beyond LLMs
-- **Interpretable** by design
-- **Bio-inspired** without neural networks
-- **Open to collaboration** on foundational research
-
-### For Enterprises
-- **Adaptive communication** for customer service
-- **Context-aware** decision systems
-- **Self-improving** business intelligence
-- **Trustworthy AI** for critical applications
-- **Custom integration** available
-
----
-
-## 🚀 Commercial Applications
-
-| Demo Technology | Real-World Application | Industry Impact |
-|---|---|---|
-| Tone System | Personalized education, therapy bots | $50B EdTech market |
-| Consciousness States | Context-aware assistants | $200B virtual assistant market |
-| Quantum-Inspired Logic | Strategic planning on standard hardware | $15B decision intelligence |
-| Abstract Reasoning | Creative tools, design | $40B creative software |
-| Lambda Frameworks | Enterprise automation | $500B automation market |
-
----
-
-## 🤝 Partnership Opportunities
-
-### What We Offer
-- **Exclusive licensing** for specific industries
-- **Custom development** for enterprise needs
-- **Technical collaboration** and support
-- **Training and integration** services
-- **Joint research** programs
-
-### What We Seek
-- **Series A funding** ($5-10M)
-- **Strategic partners** in key industries
-- **Research collaborations** with universities
-- **Pilot programs** with forward-thinking enterprises
-- **Advisors** with AI/enterprise experience
-
----
-
-## 📈 Traction & Validation
-
-- **6,351 Python files** of proprietary architecture
-- **5,073 unique classes** implementing cognitive functions
-- **1.3M+ lines** of symbolic reasoning code
-- **94% code quality** score
-- **Zero dependencies** for core demos
-
----
-
-## 🔒 Intellectual Property
-
-These demonstrations showcase concepts without exposing proprietary implementation:
-- ✅ **See the innovation** - Full concept demonstration
-- ✅ **Test the experience** - Interactive exploration
-- ❌ **Access the IP** - Core algorithms protected
-- 📧 **License available** - Commercial terms negotiable
-
----
-
-## 📞 Contact & Next Steps
-
-**Ready to explore LUKHΛS for your organization?**
-
-1. **Run the demos** - See the technology in action
-2. **Schedule a call** - Discuss your specific needs
-3. **Private demo** - See full capabilities under NDA
-4. **Pilot program** - Test in your environment
-5. **Partnership** - Build the future together
-
-**Gonzalo R. Dominguez Marchan**  
-*Founder & Creator of LUKHΛS AI*
-
----
-
-## 📜 License
-
-Copyright © 2025 Gonzalo R. Dominguez Marchan. All Rights Reserved.
-
-This demonstration package is proprietary software. See [LICENSE](LICENSE) for terms.
-
-- ✅ **Permitted**: Evaluation, research reference, academic study
-- ❌ **Prohibited**: Commercial use, redistribution, modification for profit
-- 📧 **Contact**: For commercial licensing
-
----
-
-<p align="center">
-  <b>LUKHΛS AI</b><br>
-  <i>"What if intelligence was structured, symbolic, safe — and still wildly creative?"</i><br>
-  <br>
-  <b>Beyond prediction → toward reasoning</b><br>
-  <b>Beyond imitation → toward interpretation</b><br>
-  <b>Beyond scale → toward structure</b>
-</p>
+[Project website](https://lukhas.ai) · [LUKHΛS AI on GitHub](https://github.com/LukhasAI) · [VIVOX research](https://github.com/LukhasAI/vivox-research-pack)
