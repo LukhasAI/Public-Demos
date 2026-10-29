@@ -247,16 +247,21 @@ Press Enter to continue...
             return
         
         try:
-            # Check which demo and handle appropriately
-            if 'tone_system' in demo['file'] or 'consciousness' in demo['file']:
-                # These demos work without dependencies
-                subprocess.run([sys.executable, demo_path])
+            # Direct scripts remain experimental and may need dependencies.
+            # All other menu entries open an explicitly labelled research overview.
+            if demo['id'] in ('1', '2'):
+                subprocess.run([sys.executable, demo_path], check=True, cwd=os.path.dirname(__file__))
             else:
-                # These might need fallback handling
-                print("⚠️  This demo may require additional dependencies.")
-                print("   Showing conceptual overview instead:\n")
-                subprocess.run([sys.executable, 'run_demo_safely.py', 
-                              demo['file'].replace('.py', '').replace('_demo', '')])
+                preview_names = {
+                    '3': 'qrg_showcase',
+                    '4': 'abstract_reasoning',
+                    '5': 'lambda_workforce',
+                    '6': 'autonomous_agent_framework',
+                }
+                print("Research overview only — not a verified live demo.\n")
+                preview_path = os.path.join(os.path.dirname(__file__), 'run_demo_safely.py')
+                subprocess.run([sys.executable, preview_path, preview_names[demo['id']]],
+                               check=True, cwd=os.path.dirname(__file__))
         except Exception as e:
             print(f"⚠️  Error running demo: {e}")
             print("   Some demos require additional setup or dependencies")
@@ -266,12 +271,17 @@ Press Enter to continue...
         """Main showcase loop"""
         while True:
             # Clear screen (works on most terminals)
-            os.system('clear' if os.name == 'posix' else 'cls')
+            if sys.stdout.isatty():
+                os.system('clear' if os.name == 'posix' else 'cls')
             
             self.display_banner()
             self.display_menu()
             
-            choice = input("\n🎯 Select an option: ").strip().upper()
+            try:
+                choice = input("\n🎯 Select an option: ").strip().upper()
+            except EOFError:
+                print("\nInput ended; exiting showcase.")
+                break
             
             if choice == 'Q':
                 print("\n✨ Thank you for exploring LUKHΛS AI!")

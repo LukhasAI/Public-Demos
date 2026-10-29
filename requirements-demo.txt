@@ -1,14 +1,14 @@
-# LUKHΛS Demo Showcase - Minimal Requirements
-# These are lightweight dependencies for running demos only
-# No proprietary LUKHΛS code is included or required
-
-# Core Python libraries (most are built-in)
-# Standard library only - no external dependencies required for basic demos
-
-# Optional enhancements (install if you want better visualizations)
-# colorama>=0.4.6  # For colored terminal output
-# rich>=13.0.0     # For rich terminal UI
-# click>=8.0.0     # For better CLI interactions
-
-# Note: All demos are designed to work with Python 3.8+ standard library only
-# The optional packages above enhance the experience but are not required
+# Public demonstration dependency notes (reviewed 29 October 2026)
+#
+# Python 3.10+ is used by the showcase smoke workflow.
+# showcase_interactive.py and run_demo_safely.py use Python's standard library.
+# Other demos are experimental; no universal installation or dependency
+# completeness guarantee is established by this file.
+#
+# Review each script's imports in isolation before running its live path.
+# Do not install arbitrary packages solely because a historical preview
+# prints an installation suggestion.
+#
+# Optional libraries in some research scripts may include structured logging,
+# scientific computing, or other third-party tools. They are not pinned here:
+# independently verify and scope a reproducible environment before release.
